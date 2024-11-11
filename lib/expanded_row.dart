@@ -12,7 +12,7 @@ class Expandedeg extends StatelessWidget {
     return Scaffold(
       body: Row(
         children: [
-          Container(color: Colors.red, height: 100, width: double.infinity,),
+          Container(color: Colors.red, height: double.infinity, width: 100,),
           Expanded(child: Container(
             color: Colors.yellow, height: double.infinity, width: 100,),),
           Expanded(child: Container(
