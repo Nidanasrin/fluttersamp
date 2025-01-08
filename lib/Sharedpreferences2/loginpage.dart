@@ -101,7 +101,7 @@ class _LoginwithValidsState extends State<LoginwithValids> {
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(20),),
               ),
-              validator: (password) {
+              validator: (password){
                 if (password!.isEmpty || password.length<6) {
                   return "Enter valid Password";
                 }

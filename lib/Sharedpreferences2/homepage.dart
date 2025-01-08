@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:nidflutter/Sharedpreferences2/loginpage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+void main(){
+  runApp(MaterialApp(home: Homepage(),));
+}
 class Homepage extends StatefulWidget {
   const Homepage({super.key});
 

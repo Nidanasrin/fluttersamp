@@ -14,6 +14,8 @@ class LoginWithValid extends StatefulWidget {
 }
 
 class _LoginWithValidState extends State<LoginWithValid> {
+
+
   @override
   void initState() {
     checkuser();
@@ -33,7 +35,7 @@ class _LoginWithValidState extends State<LoginWithValid> {
     newuser = (data.getBool("newuser") ?? true);
     if (newuser == false) {
       Navigator.push(
-          context, MaterialPageRoute(builder: (context) => Homepage()));
+          context, MaterialPageRoute(builder: (context) => Homepage2()));
     }
   }
 
@@ -101,7 +103,7 @@ class _LoginWithValidState extends State<LoginWithValid> {
                       data.setString("username", username);
                       data.setBool("newuser", false);
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => Homepage()));
+                          MaterialPageRoute(builder: (context) => Homepage2()));
                     }
                   }, child: Text("Login")),
                 ),
