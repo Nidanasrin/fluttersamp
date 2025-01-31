@@ -122,7 +122,8 @@ class _LoginnState extends State<Loginn> {
               print("Login Successfully");
               data.setString("username", username);
               data.setString("name", regname);
-              data.setInt("gender", genderValue1);
+              data.setInt("gender", genderValue1
+              );
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => Homepage2()));
             }
