@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+
+void main(){
+  runApp(MaterialApp(home: ,));
+}
 class info extends StatefulWidget {
   const info({super.key});
 
@@ -23,7 +27,7 @@ class _infoState extends State<info> {
         children: [
           Text("Please provide your name and an optional profile photo"),
           CircleAvatar(
-            child: ,
+            child: Icon(Icons.person_add_alt),
           ),
 
         ],
